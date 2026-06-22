@@ -1,0 +1,24 @@
+{
+  "name": "@tijnjh/match",
+  "type": "module",
+  "version": "0.0.1",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdown"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^9.0.0",
+    "eslint": "^10.3.0",
+    "tsdown": "^0.22.3",
+    "typescript": "^6.0.3"
+  }
+}
