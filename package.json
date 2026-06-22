@@ -13,7 +13,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsdown"
+    "build": "tsdown",
+    "lint": "eslint"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^9.0.0",
