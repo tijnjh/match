@@ -27,7 +27,7 @@ const html = match(result, 'type', {
 ```
 
 ## features
-- very small bundle size (~300 bytes)
+- very small bundle size (less than 400 bytes)
 - concise syntax, no method chaining
 
 ## usage 

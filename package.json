@@ -2,7 +2,19 @@
   "name": "@tijnjh/match",
   "type": "module",
   "version": "0.0.1",
+  "description": "typesafe exhaustive pattern matching for discriminated unions and objects",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tijnjh/match.git"
+  },
+  "keywords": [
+    "typescript",
+    "pattern-matching",
+    "match",
+    "exhaustive",
+    "discriminated-union"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.mts",
@@ -14,7 +26,9 @@
   ],
   "scripts": {
     "build": "tsdown",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && npm run lint && npm run build"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^9.0.0",
