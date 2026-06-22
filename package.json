@@ -1,7 +1,7 @@
 {
   "name": "@tijnjh/match",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "typesafe exhaustive pattern matching for discriminated unions and objects",
   "license": "MIT",
   "repository": {
