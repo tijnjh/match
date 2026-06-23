@@ -27,7 +27,7 @@ const html = match(result, 'type', {
 ```
 
 ## features
-- very small bundle size (less than 400 bytes)
+- very small bundle size (less than 200 bytes)
 - concise syntax, no method chaining
 
 ## usage 
@@ -63,5 +63,6 @@ match(color, {
 ```
 
 ## inspired by 
-- [ts-pattern](https://github.com/gvergnaud/ts-pattern)
+- [gvergnaud/ts-pattern](https://github.com/gvergnaud/ts-pattern)
 - rust `match`
+- [suchipi/match-discriminated-union](https://github.com/suchipi/match-discriminated-union)
